@@ -1,0 +1,7 @@
+const workers=[
+{id:1,name:"Sunita Patil",initials:"SP",area:"Kothrud",city:"Pune",services:["House Maid","Cleaning","Dish Washing"],experience:6,price:350,availability:["Morning","Evening"],rating:4.9,reviews:42,verified:true,phone:"919999999901",about:"Experienced household helper offering reliable cleaning, dish washing and daily home support."},
+{id:2,name:"Meena Kale",initials:"MK",area:"Warje",city:"Pune",services:["Cooking","House Maid"],experience:9,price:500,availability:["Morning","Full Time"],rating:4.8,reviews:35,verified:true,phone:"919999999902",about:"Home cook and household helper with experience in everyday meals."},
+{id:3,name:"Suresh Pawar",initials:"SP",area:"Baner",city:"Pune",services:["Elder Care"],experience:12,price:700,availability:["Full Time"],rating:4.7,reviews:28,verified:true,phone:"919999999903",about:"Reliable caretaker experienced in senior assistance and daily household support."},
+{id:4,name:"Asha Jadhav",initials:"AJ",area:"Aundh",city:"Pune",services:["Cleaning","Dish Washing"],experience:5,price:320,availability:["Morning"],rating:4.8,reviews:31,verified:true,phone:"919999999904",about:"Friendly and punctual cleaning helper available for morning work."},
+{id:5,name:"Pooja Shinde",initials:"PS",area:"Hadapsar",city:"Pune",services:["Babysitter","House Maid"],experience:7,price:450,availability:["Morning","Evening"],rating:4.9,reviews:46,verified:true,phone:"919999999905",about:"Caring childcare and household support with a family-friendly approach."}
+];

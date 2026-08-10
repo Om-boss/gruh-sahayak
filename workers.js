@@ -1,0 +1,4 @@
+const grid=document.getElementById("workerGrid"),count=document.getElementById("count"),empty=document.getElementById("empty"),p=new URLSearchParams(location.search);
+if(p.get("area"))document.getElementById("area").value=p.get("area");if(p.get("service"))document.getElementById("service").value=p.get("service");
+function render(){let a=document.getElementById("area").value.toLowerCase(),s=document.getElementById("service").value,v=document.getElementById("availability").value;let list=workers.filter(w=>(!a||w.area.toLowerCase().includes(a))&&(!s||w.services.includes(s))&&(!v||w.availability.includes(v)));count.textContent=list.length+" Workers Found";grid.innerHTML=list.map(card).join("");empty.classList.toggle("hidden",list.length>0)}
+document.getElementById("filters").onsubmit=e=>{e.preventDefault();render()};document.getElementById("clear").onclick=()=>{document.getElementById("filters").reset();render()};render();
